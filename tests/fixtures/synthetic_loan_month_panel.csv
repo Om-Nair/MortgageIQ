@@ -1,0 +1,5 @@
+synthetic_loan_id,reporting_month,loan_age_months,note_rate,market_rate_proxy,original_ltv,local_hpi_yoy_pct,fixture_note,agency_event_code
+SYN-001,2024-01-01,12,6.500,6.625,80,2.1,synthetic_only,NOT_DEFINED
+SYN-001,2024-02-01,13,6.500,6.500,80,2.3,synthetic_only,NOT_DEFINED
+SYN-002,2024-01-01,4,5.750,6.625,90,-1.0,synthetic_only,NOT_DEFINED
+SYN-002,2024-02-01,5,5.750,6.500,90,-0.8,synthetic_only,NOT_DEFINED

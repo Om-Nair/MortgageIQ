@@ -1,0 +1,18 @@
+project:
+  name: MortgageLab
+  stage: 1
+  random_seed: 42
+
+paths:
+  # Relative paths resolve from the repository root unless MORTGAGELAB_DATA_ROOT is set.
+  raw: data/raw
+  external: data/external
+  interim: data/interim
+  processed: data/processed
+  reports: reports
+
+analysis:
+  # Placeholders only. No source layout, cohort, event code, or data download is defined in Stage 1.
+  source_release: null
+  cohort: null
+  observation_end: null

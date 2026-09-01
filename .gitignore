@@ -1,0 +1,37 @@
+# Python and test tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Environments and local configuration
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Data: source and derived data must not be committed
+data/raw/*
+!data/raw/.gitkeep
+data/external/*
+!data/external/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Generated research outputs (keep only the empty directory marker)
+reports/*
+!reports/.gitkeep
+
+# Notebook, app, and OS artifacts
+.ipynb_checkpoints/
+.streamlit/secrets.toml
+*.log
+.DS_Store
+Thumbs.db
